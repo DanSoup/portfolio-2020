@@ -1,0 +1,33 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#main-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#side-bar {
+  background-color: red;
+  height: 100%;
+  width: 300px;
+  flex-grow: 0;
+  padding: 10px;
+  transition: 2s;
+}
+
+#side-bar.collapsed {
+  width: 50px;
+}
+
+#side-bar * {
+  margin: 0px;
+}
+
+#content {
+  background-color: green;
+  height: 100%;
+  flex-grow: 1;
+}

@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
+import {BrowserRouter} from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './normalize.css';
 import './index.css';
 
-import MainPage from './MainPage'
+import MainPage from './components/MainPage'
 
 class App extends Component {
   render () {
-    return <MainPage/>
+    return <BrowserRouter>
+      <MainPage/>
+    </BrowserRouter>
   };
 }
 
