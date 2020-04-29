@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './normalize.css';
-import './index.css';
+import './normalize.scss';
+import './index.scss';
 
 import MainPage from './components/MainPage'
 
